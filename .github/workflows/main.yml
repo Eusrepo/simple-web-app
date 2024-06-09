@@ -14,7 +14,7 @@ jobs:
         with:
           args: --delete
         env:
-          AWS_S3_BUCKET: simplesite.nneyenumana.me
+          AWS_S3_BUCKET: eusrepo-simplewebapp
           AWS_ACCESS_KEY_ID: ${{ secrets.ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.SECRET_KEY }}
           SOURCE_DIR: ./main
